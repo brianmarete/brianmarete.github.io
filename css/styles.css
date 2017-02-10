@@ -6,3 +6,8 @@
     background-size: cover;
     -o-background-size: cover;
 }
+
+footer {
+  height: 100px;
+  background-color: #F8F8F8;
+}
