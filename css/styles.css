@@ -1,18 +1,18 @@
 /* page-heading class made with help from https://css-tricks.com/snippets/css/transparent-background-images/ */
 
-.page-heading {
+#page-heading {
   height: 500px;
   width: 100%;
   position: relative;
   display: block;
 }
 
-.page-heading::after {
+#page-heading::after {
   content: "";
   background: url('../img/nebula.jpg') center center no-repeat scroll;
   background-size: cover;
   position: absolute;
-  opacity: 0.5;
+  opacity: 0.3;
   z-index: -1;
   top: 0;
   left: 0;
@@ -20,7 +20,26 @@
   right: 0;
 }
 
+#title {
+  margin-top: 20%;
+  text-align: center;
+}
 
+#title h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 5em;
+  color: #13131;
+}
+
+#title p {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.6em;
+  color: #2E2E31;
+}
+
+#main {
+  
+}
 
 footer {
   height: 100px;
