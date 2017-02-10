@@ -1,11 +1,26 @@
+/* page-heading class made with help from https://css-tricks.com/snippets/css/transparent-background-images/ */
+
 .page-heading {
-  height: 400px;
-  background: url('http://placehold.it/1920x400') center center no-repeat scroll;
-  -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  height: 500px;
+  width: 100%;
+  position: relative;
+  display: block;
 }
+
+.page-heading::after {
+  content: "";
+  background: url('../img/nebula.jpg') center center no-repeat scroll;
+  background-size: cover;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+
 
 footer {
   height: 100px;
