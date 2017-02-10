@@ -15,3 +15,4 @@ If you would like a local copy of this website, make sure you have git installed
 * HTML
 * CSS
 * Bootstrap
+* FontAwesome
