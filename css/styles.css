@@ -47,13 +47,21 @@ body { background-color: #E8E8E8; }
   font-size: 1.3em;
 }
 
-.pacifico { font-family: 'Pacifico', cursive; }
-
+.project {
+  text-align: center;
+}
 
 .project-image {
   width: 200px;
   height: 200px;
 }
+
+
+
+.github, .project-image {
+  margin: 5px auto;
+}
+.pacifico { font-family: 'Pacifico', cursive; }
 
 footer {
   height: 100px;
