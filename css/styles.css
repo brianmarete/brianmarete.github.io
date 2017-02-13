@@ -49,6 +49,12 @@ body { background-color: #E8E8E8; }
 
 .pacifico { font-family: 'Pacifico', cursive; }
 
+
+.project-image {
+  width: 200px;
+  height: 200px;
+}
+
 footer {
   height: 100px;
   text-align: center;
