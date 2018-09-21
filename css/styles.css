@@ -1,23 +1,30 @@
-body { background-color: #E8E8E8; }
+body { 
+  background-color: #E8E8E8; 
+}
+
+a {
+  color: inherit;
+}
 
 /* page-heading class made with help from https://css-tricks.com/snippets/css/transparent-background-images/ */
 
 #page-heading {
-  height: 450px;
-  width: 100%;
+  height: 66vh;
+  width: 100vw;
   position: relative;
   display: block;
 }
 
 #page-heading::after {
+  /* background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
   content: "";
-  background-image: url('../img/nebula.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #F39330;
+  background: -webkit-radial-gradient(bottom left, #F39330, #106075);
+  background: -moz-radial-gradient(bottom left, #F39330, #106075);
+  background: radial-gradient(bottom left, #F39330, #106075);
   background-attachment: scroll;
   position: absolute;
-  opacity: 0.3;
+  opacity: 0.6;
   z-index: -1;
   top: 0;
   left: 0;
@@ -33,7 +40,7 @@ body { background-color: #E8E8E8; }
 #title h1 {
   font-family: 'Quicksand', sans-serif;
   font-size: 5em;
-  color: #13131;
+  color: #131313;
 }
 
 #title p {
@@ -59,6 +66,7 @@ body { background-color: #E8E8E8; }
 .github, .project-image {
   margin: 5px auto;
 }
+
 .pacifico { font-family: 'Pacifico', cursive; }
 
 footer {
@@ -69,10 +77,6 @@ footer {
 
 footer ul {
   padding: 0px;
-}
-
-footer a {
-  color: black;
 }
 
 footer ul li {
