@@ -71,6 +71,10 @@ footer ul {
   padding: 0px;
 }
 
+footer a {
+  color: black;
+}
+
 footer ul li {
   list-style: none;
   display: inline;
